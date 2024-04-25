@@ -1,0 +1,6 @@
+framework module Pods_WaiterApp {
+  umbrella header "Pods-WaiterApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

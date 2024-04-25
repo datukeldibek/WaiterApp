@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AB3621B4AB9936BC74EFDD6 /* Pods_WaiterApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207CB607C04B1C1039A7DF0F /* Pods_WaiterApp.framework */; };
 		7CF37BEB2BDAB1C3002EE91A /* WaiterAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37BEA2BDAB1C3002EE91A /* WaiterAppApp.swift */; };
 		7CF37BED2BDAB1C3002EE91A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37BEC2BDAB1C3002EE91A /* ContentView.swift */; };
 		7CF37BEF2BDAB1C5002EE91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF37BEE2BDAB1C5002EE91A /* Assets.xcassets */; };
@@ -14,6 +15,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		207CB607C04B1C1039A7DF0F /* Pods_WaiterApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaiterApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42253C1C5647B8AB55127487 /* Pods-WaiterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaiterApp.release.xcconfig"; path = "Target Support Files/Pods-WaiterApp/Pods-WaiterApp.release.xcconfig"; sourceTree = "<group>"; };
+		44749A05D12D710591076AEB /* Pods-WaiterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaiterApp.debug.xcconfig"; path = "Target Support Files/Pods-WaiterApp/Pods-WaiterApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7CF37BE72BDAB1C3002EE91A /* WaiterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaiterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF37BEA2BDAB1C3002EE91A /* WaiterAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaiterAppApp.swift; sourceTree = "<group>"; };
 		7CF37BEC2BDAB1C3002EE91A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB3621B4AB9936BC74EFDD6 /* Pods_WaiterApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +42,8 @@
 			children = (
 				7CF37BE92BDAB1C3002EE91A /* WaiterApp */,
 				7CF37BE82BDAB1C3002EE91A /* Products */,
+				7E59FB614949AA7DB1B4B31D /* Pods */,
+				DA678F0CE2307193E560215B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7E59FB614949AA7DB1B4B31D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44749A05D12D710591076AEB /* Pods-WaiterApp.debug.xcconfig */,
+				42253C1C5647B8AB55127487 /* Pods-WaiterApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA678F0CE2307193E560215B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				207CB607C04B1C1039A7DF0F /* Pods_WaiterApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CF37BF52BDAB1C5002EE91A /* Build configuration list for PBXNativeTarget "WaiterApp" */;
 			buildPhases = (
+				DF5B30AE2860AB284B84E167 /* [CP] Check Pods Manifest.lock */,
 				7CF37BE32BDAB1C3002EE91A /* Sources */,
 				7CF37BE42BDAB1C3002EE91A /* Frameworks */,
 				7CF37BE52BDAB1C3002EE91A /* Resources */,
+				C8E4EC78B847D15F9FBBEFF0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +158,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C8E4EC78B847D15F9FBBEFF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaiterApp/Pods-WaiterApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaiterApp/Pods-WaiterApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WaiterApp/Pods-WaiterApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF5B30AE2860AB284B84E167 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaiterApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7CF37BE32BDAB1C3002EE91A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -182,7 +250,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -245,7 +313,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -266,6 +334,7 @@
 		};
 		7CF37BF62BDAB1C5002EE91A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44749A05D12D710591076AEB /* Pods-WaiterApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +364,7 @@
 		};
 		7CF37BF72BDAB1C5002EE91A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42253C1C5647B8AB55127487 /* Pods-WaiterApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
