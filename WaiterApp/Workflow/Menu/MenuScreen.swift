@@ -12,7 +12,7 @@ struct MenuScreen: View {
         VStack {
             ToolBarView(title: "Меню")
             
-            Spacer()
+            MenuView()
         }
         .padding()
         .frame(maxWidth: .infinity)

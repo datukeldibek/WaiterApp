@@ -13,6 +13,7 @@ public enum AppImage: String {
     case tabItemNewOrders = "PlusCircle"
     case iconNotification = "notification"
     case iconProfile = "userProfile"
+    case iconSearch = "magnifyingGlass"
     
 }
 

@@ -117,6 +117,7 @@
 		7CF37BFD2BDB98BF002EE91A /* Workflow */ = {
 			isa = PBXGroup;
 			children = (
+				7CF37C1F2BDBC02C002EE91A /* Components */,
 				7CF37C0A2BDB9A50002EE91A /* Views */,
 				7CF37C012BDB98E6002EE91A /* Profile */,
 				7CF37C002BDB98DD002EE91A /* NewOrders */,
@@ -162,14 +163,21 @@
 			isa = PBXGroup;
 			children = (
 				7CF37C172BDBB475002EE91A /* TablesView.swift */,
-				7CF37C082BDB9981002EE91A /* CustomTabbar.swift */,
 				7CF37C0D2BDB9D10002EE91A /* ToolBarView.swift */,
-				7CF37C0F2BDBA220002EE91A /* TabContent.swift */,
-				7CF37C132BDBB2E8002EE91A /* TableCell.swift */,
 				7CF37C1B2BDBBB53002EE91A /* MenuView.swift */,
-				7CF37C1D2BDBBBFA002EE91A /* SearchBar.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		7CF37C1F2BDBC02C002EE91A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7CF37C082BDB9981002EE91A /* CustomTabbar.swift */,
+				7CF37C1D2BDBBBFA002EE91A /* SearchBar.swift */,
+				7CF37C132BDBB2E8002EE91A /* TableCell.swift */,
+				7CF37C0F2BDBA220002EE91A /* TabContent.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		7E59FB614949AA7DB1B4B31D /* Pods */ = {

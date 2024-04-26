@@ -35,7 +35,7 @@ public struct SearchBar: View {
                 .padding(.horizontal, 40)
                 .overlay(
                     HStack {
-                        AppImages.getImage(.iconProfile)
+                        AppImages.getImage(.iconSearch)
                             .foregroundColor(.gray)
                             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                             .padding(.leading, 16)
