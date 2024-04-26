@@ -12,6 +12,20 @@
 		7CF37BED2BDAB1C3002EE91A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37BEC2BDAB1C3002EE91A /* ContentView.swift */; };
 		7CF37BEF2BDAB1C5002EE91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF37BEE2BDAB1C5002EE91A /* Assets.xcassets */; };
 		7CF37BF22BDAB1C5002EE91A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF37BF12BDAB1C5002EE91A /* Preview Assets.xcassets */; };
+		7CF37BF92BDB665A002EE91A /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37BF82BDB6659002EE91A /* Images.swift */; };
+		7CF37BFC2BDB91C6002EE91A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37BFB2BDB91C6002EE91A /* Colors.swift */; };
+		7CF37C032BDB98FE002EE91A /* OrdersScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37C022BDB98FE002EE91A /* OrdersScreen.swift */; };
+		7CF37C052BDB9924002EE91A /* MenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37C042BDB9924002EE91A /* MenuScreen.swift */; };
+		7CF37C072BDB993F002EE91A /* NewOrdersScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37C062BDB993F002EE91A /* NewOrdersScreen.swift */; };
+		7CF37C092BDB9981002EE91A /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37C082BDB9981002EE91A /* CustomTabbar.swift */; };
+		7CF37C0C2BDB9A63002EE91A /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37C0B2BDB9A63002EE91A /* MainScreen.swift */; };
+		7CF37C0E2BDB9D11002EE91A /* ToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37C0D2BDB9D10002EE91A /* ToolBarView.swift */; };
+		7CF37C102BDBA220002EE91A /* TabContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37C0F2BDBA220002EE91A /* TabContent.swift */; };
+		7CF37C122BDBB20F002EE91A /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37C112BDBB20F002EE91A /* Sizes.swift */; };
+		7CF37C142BDBB2E8002EE91A /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37C132BDBB2E8002EE91A /* TableCell.swift */; };
+		7CF37C182BDBB475002EE91A /* TablesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37C172BDBB475002EE91A /* TablesView.swift */; };
+		7CF37C1C2BDBBB53002EE91A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37C1B2BDBBB53002EE91A /* MenuView.swift */; };
+		7CF37C1E2BDBBBFA002EE91A /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF37C1D2BDBBBFA002EE91A /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +37,20 @@
 		7CF37BEC2BDAB1C3002EE91A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7CF37BEE2BDAB1C5002EE91A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CF37BF12BDAB1C5002EE91A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CF37BF82BDB6659002EE91A /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		7CF37BFB2BDB91C6002EE91A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		7CF37C022BDB98FE002EE91A /* OrdersScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersScreen.swift; sourceTree = "<group>"; };
+		7CF37C042BDB9924002EE91A /* MenuScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScreen.swift; sourceTree = "<group>"; };
+		7CF37C062BDB993F002EE91A /* NewOrdersScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrdersScreen.swift; sourceTree = "<group>"; };
+		7CF37C082BDB9981002EE91A /* CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
+		7CF37C0B2BDB9A63002EE91A /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		7CF37C0D2BDB9D10002EE91A /* ToolBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarView.swift; sourceTree = "<group>"; };
+		7CF37C0F2BDBA220002EE91A /* TabContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContent.swift; sourceTree = "<group>"; };
+		7CF37C112BDBB20F002EE91A /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
+		7CF37C132BDBB2E8002EE91A /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		7CF37C172BDBB475002EE91A /* TablesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablesView.swift; sourceTree = "<group>"; };
+		7CF37C1B2BDBBB53002EE91A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		7CF37C1D2BDBBBFA002EE91A /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,8 @@
 		7CF37BE92BDAB1C3002EE91A /* WaiterApp */ = {
 			isa = PBXGroup;
 			children = (
+				7CF37BFD2BDB98BF002EE91A /* Workflow */,
+				7CF37BFA2BDB66B1002EE91A /* Constants */,
 				7CF37BEA2BDAB1C3002EE91A /* WaiterAppApp.swift */,
 				7CF37BEC2BDAB1C3002EE91A /* ContentView.swift */,
 				7CF37BEE2BDAB1C5002EE91A /* Assets.xcassets */,
@@ -72,6 +102,74 @@
 				7CF37BF12BDAB1C5002EE91A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CF37BFA2BDB66B1002EE91A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				7CF37BF82BDB6659002EE91A /* Images.swift */,
+				7CF37BFB2BDB91C6002EE91A /* Colors.swift */,
+				7CF37C112BDBB20F002EE91A /* Sizes.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		7CF37BFD2BDB98BF002EE91A /* Workflow */ = {
+			isa = PBXGroup;
+			children = (
+				7CF37C0A2BDB9A50002EE91A /* Views */,
+				7CF37C012BDB98E6002EE91A /* Profile */,
+				7CF37C002BDB98DD002EE91A /* NewOrders */,
+				7CF37BFF2BDB98D7002EE91A /* Menu */,
+				7CF37BFE2BDB98C7002EE91A /* Orders */,
+				7CF37C0B2BDB9A63002EE91A /* MainScreen.swift */,
+			);
+			path = Workflow;
+			sourceTree = "<group>";
+		};
+		7CF37BFE2BDB98C7002EE91A /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				7CF37C022BDB98FE002EE91A /* OrdersScreen.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		7CF37BFF2BDB98D7002EE91A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				7CF37C042BDB9924002EE91A /* MenuScreen.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		7CF37C002BDB98DD002EE91A /* NewOrders */ = {
+			isa = PBXGroup;
+			children = (
+				7CF37C062BDB993F002EE91A /* NewOrdersScreen.swift */,
+			);
+			path = NewOrders;
+			sourceTree = "<group>";
+		};
+		7CF37C012BDB98E6002EE91A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		7CF37C0A2BDB9A50002EE91A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CF37C172BDBB475002EE91A /* TablesView.swift */,
+				7CF37C082BDB9981002EE91A /* CustomTabbar.swift */,
+				7CF37C0D2BDB9D10002EE91A /* ToolBarView.swift */,
+				7CF37C0F2BDBA220002EE91A /* TabContent.swift */,
+				7CF37C132BDBB2E8002EE91A /* TableCell.swift */,
+				7CF37C1B2BDBBB53002EE91A /* MenuView.swift */,
+				7CF37C1D2BDBBBFA002EE91A /* SearchBar.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		7E59FB614949AA7DB1B4B31D /* Pods */ = {
@@ -205,7 +303,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF37C122BDBB20F002EE91A /* Sizes.swift in Sources */,
+				7CF37C072BDB993F002EE91A /* NewOrdersScreen.swift in Sources */,
+				7CF37C052BDB9924002EE91A /* MenuScreen.swift in Sources */,
+				7CF37C142BDBB2E8002EE91A /* TableCell.swift in Sources */,
+				7CF37C0E2BDB9D11002EE91A /* ToolBarView.swift in Sources */,
+				7CF37C1E2BDBBBFA002EE91A /* SearchBar.swift in Sources */,
 				7CF37BED2BDAB1C3002EE91A /* ContentView.swift in Sources */,
+				7CF37BFC2BDB91C6002EE91A /* Colors.swift in Sources */,
+				7CF37C102BDBA220002EE91A /* TabContent.swift in Sources */,
+				7CF37C092BDB9981002EE91A /* CustomTabbar.swift in Sources */,
+				7CF37BF92BDB665A002EE91A /* Images.swift in Sources */,
+				7CF37C1C2BDBBB53002EE91A /* MenuView.swift in Sources */,
+				7CF37C0C2BDB9A63002EE91A /* MainScreen.swift in Sources */,
+				7CF37C032BDB98FE002EE91A /* OrdersScreen.swift in Sources */,
+				7CF37C182BDBB475002EE91A /* TablesView.swift in Sources */,
 				7CF37BEB2BDAB1C3002EE91A /* WaiterAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
