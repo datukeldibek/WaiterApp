@@ -8,7 +8,20 @@
 import SwiftUI
 
 struct MainScreen: View {
+    
     @State var selectedTeb: Int = 0
+    
+    // MARK: - Injection))))))))))))))
+    lazy var storage = TransientStorageService()
+    lazy var authService = AuthApiService(keyValueStore: storage)
+    lazy var viewModel = MainViewModel(authService: authService)
+    
+    init() {
+        viewModel.authorizeUser(user: SignInRequest(phoneNumber: "+996559009814")) { result in
+            result
+        }
+    }
+    
     var body: some View {
         ZStack {
             
@@ -31,10 +44,6 @@ struct MainScreen: View {
         .frame(maxWidth: .infinity)
         .background(AppColors.getColor(.backgroundColor))
     }
-}
-
-#Preview {
-    MainScreen()
 }
 
 
